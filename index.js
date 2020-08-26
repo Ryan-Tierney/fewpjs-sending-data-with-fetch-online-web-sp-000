@@ -19,3 +19,6 @@ fetch("http://localhost:3000/dogs", configObj)
   .then(function(object) {
     console.log(object);
   });
+  
+  
+  function submitData(fetch("http://localhost:3000/users", configObj))
