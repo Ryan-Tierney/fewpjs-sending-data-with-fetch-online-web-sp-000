@@ -17,9 +17,9 @@ function submitData(name, email) {
         return response.json(); 
       })
       .then(function(object) {
-      let h2 = document.createElement(h2);
+      let h2 = document.createElement('h2');
       h2.innerHTML = object.id;
-      document.body.appendchild(h2);
+      document.body.appendChild(h2);
       console.log(object);
       })
 }
