@@ -21,5 +21,6 @@ fetch("http://localhost:3000/dogs", configObj)
   });
   
   
-  function submitData()
+  function submitData() {
     fetch("http://localhost:3000/users", configObj) 
+  }
