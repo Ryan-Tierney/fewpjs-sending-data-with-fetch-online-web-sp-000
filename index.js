@@ -27,6 +27,9 @@ fetch("http://localhost:3000/dogs", configObj)
       return response.json(); 
     })
     .then(function(object) {
+      let h2 = document.createElement(h2)
+      h2.innerHTML = object.id 
+      document.appendchild(h2)
       console.log(object);
     })
     .then(function(response) { 
