@@ -22,4 +22,5 @@ function submitData(name, email) {
       document.body.appendChild(h2);
       console.log(object);
       })
+      
 }
