@@ -21,7 +21,7 @@ fetch("http://localhost:3000/dogs", configObj)
   });
   
   
-  function submitData() {
+function submitData() {
     let formData = {
     name: name,
     email: email
@@ -38,11 +38,11 @@ fetch("http://localhost:3000/dogs", configObj)
     fetch("http://localhost:3000/users", configObj) 
     .then(function(response) {
       return response.json(); 
-    })
+  })
     .then(function(object) {
     let h2 = document.createElement(h2)
     h2.innerHTML = object.id;
     document.body.appendchild(h2);
     console.log(object);
-    })
-  }
+  })
+}
