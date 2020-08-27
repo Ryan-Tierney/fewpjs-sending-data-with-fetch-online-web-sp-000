@@ -22,5 +22,10 @@ function submitData(name, email) {
       document.body.appendChild(h2);
       console.log(object);
       })
-      
+              .catch(function(error) {
+            let h3 = document.createElement('h3');
+            h3.innerHTML = error.message;
+            document.body.appendChild(h3);
+            console.log(error.message);
+        });
 }
