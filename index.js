@@ -1,6 +1,6 @@
 let formData = {
   name: "Byron",
-  dogBreed: "Poodle"
+  email: "Poodle"
 };
  
 let configObj = {
