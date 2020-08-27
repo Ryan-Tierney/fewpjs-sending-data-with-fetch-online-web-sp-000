@@ -32,7 +32,4 @@ fetch("http://localhost:3000/dogs", configObj)
       document.body.appendchild(h2);
       console.log(object);
     })
-    .then(function(response) { 
-      return parsInt(document.
-    })
   }
